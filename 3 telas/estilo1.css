@@ -1,0 +1,129 @@
+.carta{
+    height: fit-content;
+    width: 387px;
+    
+}
+
+.image1{
+    background-image: url(image\ 5.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image2{
+    background-image: url(image\ 4.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image3{
+    background-image: url(image\ 3.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    padding: 10px;
+    font-size: 14px;
+    text-justify: end;
+    text-align: justify;
+}
+
+.texto{
+    padding: 10px;
+    font-size: 14px;
+    text-justify: end;
+    text-align: justify;
+}
+
+.data{
+    padding: 10px;
+    font-size: 14px;
+    text-justify: end;
+    text-align: justify;
+}
+
+.parte2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.cartas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.culinaria {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(culinaria.png);
+    background-size: cover;
+    background-position: center;
+    color: white; 
+}
+.arte{
+    background-image: url(artesCenicas.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art_moda{
+    background-image: url(Group\ 39.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exposicoes{
+    background-image: url(exposicoes.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.culturas{
+    background-image: url(culturas.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musica{
+    background-image: url(musica.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.literatura{
+    background-image: url(literatura.png);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

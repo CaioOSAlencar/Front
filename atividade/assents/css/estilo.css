@@ -1,0 +1,174 @@
+:root{
+    --cor-cinza: #e5e5e5b3;
+    --cor-cinza-claro: #E5E5E5B2; 
+    --cor-segundaria:  #ffff009a;
+    --cor-branco: #FFFFFF;
+    --cor-vermelho-claro:#E74C4C;
+    --cor-preto:#000000;
+    --cinza-escuro:#2D3748CC;
+
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h1{ font-size: 48px;}
+h2{ font-size: 32px;}
+
+p{
+    line-height: 1.5;
+}
+
+.menu{
+    background-color: var(--cor-cinza);
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    
+}
+.menu ul{
+    list-style: none;
+    margin-top: -5px;
+    
+}
+.menu > ul > li{
+    display: inline;
+    margin: 0 10px;
+    
+}
+
+.apresentacao{
+    position: relative;
+    z-index: 0;
+    
+}
+
+.apresentacao > img{
+    width: 100%;
+    display: block;
+    margin-top: -70px;
+}
+
+.faixa1{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 140px;
+    left: 0px;
+    width: 100%;
+    background-color: var(--cor-segundaria);
+    padding: 50px;
+}
+
+.faixa2{
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    top: 400px;
+    left: 630px;
+    width: 30%;
+    background-color: var(--cor-segundaria);
+    padding: 50px;
+}
+
+.linha{
+    text-align: center;
+    left: -100;
+}
+/* para fazer as duas primeiras imagens de programação*/
+.titulo{
+    position: absolute;
+    margin-left: -900px ;
+    margin-top: 50px;
+    
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.palestras{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    
+}
+
+.palestras img{
+    max-width: 100px;
+    margin-right: 10px;
+}
+/*-----------------------------------*/
+
+.titulo2{
+    position: absolute;
+    margin-left: -990px ;
+    margin-top: 350px;   
+}
+
+#localizacao > img{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--cinza-escuro);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: -4px;
+    width: 100%;
+}
+
+.rodape{
+    color: var(--cor-branco);
+    margin-right: 980px;
+}
+
+.logo{
+    margin: 0 -380px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 430px;
+    margin-top: 40px;
+}
+
+/* link */
+
+.menu-link:link{
+    color: var(--cor-preto);
+    
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu-link:visited{
+    color: var(--cor-preto);
+    border-bottom: 2px var(--cor-cinza-claro) solid;
+}
+
+.menu-link.botao{
+    background-color: var(--cor-vermelho-claro);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: var(--cor-branco);
+    border-radius: 5px;
+}
+
+.menu-link.botao:hover{
+    background-color: var(--cor-cinza-claro);
+    color: var(--cor-vermelho-claro);
+}
